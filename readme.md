@@ -32,3 +32,43 @@
 
 ## git reflog 
 1. 查看操作日志（简单版本）
+
+## git diff 文件名
+1.  查看文件变更信息
+
+
+## git  reset -- hard 版本号
+1. 版本回退，HEAD^ 回退到上一个版本
+2. 回退到指定的版本
+
+
+
+## 主要的几个操作
+ git init  ：创建版本库
+ git add 文件名 ：工作区提交暂存区
+ git commit -m '注释'：暂存区提交到本地仓库
+
+
+ ## 远程仓库 ：代码放在远程仓库 别人都可以访问
+
+
+
+ ## git remote add origin 仓库地址 https://github.com/xw0203/Git-Test.git
+ 1. 把本地仓库与远程仓库关联
+
+
+ ## git remote -v
+ 1. 查看本地仓库关联的远程仓库地址
+
+
+
+ ## git push -u origin master
+ 1. git push 本地仓库提交到远程仓库
+ 2. -u origin master 设置默认的远程仓库和分支
+ 3.执行忘这个命令之后，以后可以直接 git push提交到远程仓库的master分支
+
+
+
+ ## 更新代码
+ 1.把远程代码更新到本地时，一定要养成先提交本地再更新的习惯！！！
+ 2.git pull 把远程代码拉取到本地
